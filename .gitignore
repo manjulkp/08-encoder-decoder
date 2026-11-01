@@ -1,0 +1,14 @@
+# Python and uv
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Trained models and long logs, which can be recreated
+*.pt
+*.safetensors
+outputs/best_model/
+outputs/*.log
+
+# Downloaded data: see the README for how to get it
+data/

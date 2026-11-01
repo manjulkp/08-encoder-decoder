@@ -1,0 +1,13 @@
+[project]
+name = "encoder-decoder-bakeoff"
+version = "0.1.0"
+description = "Compare same-size transformer encoders and decoders on news classification"
+requires-python = ">=3.12"
+dependencies = ["datasets>=3.0", "matplotlib>=3.10", "torch>=2.9"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
